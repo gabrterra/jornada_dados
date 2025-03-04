@@ -29,9 +29,9 @@ pyenv global 3.12.1
 
 pyenv local 3.11.5
 
-![arquivo .python-version](image.png)
+![arquivo .python-version](readme\arquivo_python_version.png)
 
-![versão atribuída](image-1.png)
+![versão atribuída](readme\versão_atribuída.png)
 
 
 
