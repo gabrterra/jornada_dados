@@ -1,4 +1,4 @@
-# 📊 jornada_dados  
+# 📊 Conteúdo do curso jornada_dados  
 
 ## 🛠 Instalar Git  
 
