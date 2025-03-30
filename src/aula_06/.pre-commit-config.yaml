@@ -1,0 +1,40 @@
+repos:
+  # Black - Formatação de Python
+  - repo: https://github.com/psf/black
+    rev: 24.3.0  # Use a versão mais recente
+    hooks:
+      - id: black
+        language_version: python3
+
+  # Blue - Alternativa ao Black
+  - repo: https://github.com/grantjenks/blue
+    rev: 0.9.1
+    hooks:
+      - id: blue
+        language_version: python3
+
+  # Flake8 - Linter de Python
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.0.0
+    hooks:
+      - id: flake8
+
+  # SQLFluff - Formatação e lint para SQL/dbt
+  - repo: https://github.com/sqlfluff/sqlfluff
+    rev: 2.3.3
+    hooks:
+      - id: sqlfluff-lint
+        args: ["--dialect", "bigquery"]  # Ajuste para o seu banco de dados
+
+      - id: sqlfluff-fix
+        args: ["--dialect", "bigquery"]
+
+  # SQLFluff para dbt - Processar templates Jinja
+  - repo: https://github.com/sqlfluff/sqlfluff
+    rev: 2.3.3
+    hooks:
+      - id: sqlfluff-lint
+        args: ["--dialect", "bigquery", "--templater", "dbt"]
+
+      - id: sqlfluff-fix
+        args: ["--dialect", "bigquery", "--templater", "dbt"]
