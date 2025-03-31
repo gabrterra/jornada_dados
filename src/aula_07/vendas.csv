@@ -1,0 +1,11 @@
+categoria,nome_produto,preco,quantidade,enviado,data_venda
+Computadores,Notebook Dell Inspiron,3500.00,5,Sim,2023-10-01
+Periféricos,Mouse Logitech MX Master,250.00,10,Sim,2023-10-02
+Acessórios,Teclado Mecânico Razer,450.00,7,Não,2023-10-03
+Monitores,Monitor LG UltraWide,1200.00,3,Sim,2023-10-04
+Armazenamento,SSD Kingston 1TB,500.00,8,Não,2023-10-05
+Redes,Roteador TP-Link Archer,300.00,6,Sim,2023-10-06
+Impressoras,Impressora HP LaserJet,800.00,2,Sim,2023-10-07
+Cadeiras,Cadeira Gamer DXRacer,1500.00,4,Não,2023-10-08
+Headsets,Headset HyperX Cloud II,600.00,9,Sim,2023-10-09
+Softwares,Licença Windows 11 Pro,1000.00,15,Sim,2023-10-10
